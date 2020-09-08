@@ -1,0 +1,29 @@
+.content.login {
+    margin-top: 10%;
+    margin-left: 28vw;
+    margin-right: 28vw;
+    height: 100%;
+}
+  
+@media screen and (min-width: 992px) {
+    .content.login {
+        margin-left: 38vw;
+        margin-right: 38vw;
+    }
+}
+@media screen and (max-width: 576px) {
+    .content.login {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+}
+
+.content.login h2 {
+    display: none;
+}
+
+.content.login input[type="text"],
+.content.login input[type="password"],
+.content.login .btn {
+    width: 100%;
+}

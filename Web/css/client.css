@@ -1,0 +1,55 @@
+.profile {
+    width: fill;
+    height: 250px;
+    text-align: center;
+}
+.profile .image {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      margin: 38px auto 0 auto;
+}
+.profile .image .img {
+        display: block;
+}
+
+.profile  .name {
+      font-size: 30px;
+      font-weight: 600;
+}
+.profile .clientID {
+          margin-top: 20px;
+      font-size: 25px;
+      line-height: 15px;
+} 
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.stats .box {
+      width: 25%;
+    height: 70px;
+    background: #3399ff;
+      color: white;
+    text-align: center;
+    padding-top: 28px;
+    flex-grow: 1;
+}
+.stats span {
+      display: block;
+}
+.stats .value {
+      font-size: 30px;
+      font-weight: 600;
+}
+.stats .parameter {
+      font-size: 20px;
+}
+
+.card {
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    box-shadow: none;
+}

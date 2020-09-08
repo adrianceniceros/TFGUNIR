@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: var(--text-color);
+}
+
+.topbar {
+    top: 0px;
+    color:white;
+    background-color: var(--black);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.topbar h1{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.container-fluid{
+    position: absolute;
+    top: 100px;
+}
+
+.content {
+    padding: 30px 25px;
+}
+
+h2.title-page {
+    font-size: 1.75rem;
+    margin-bottom: 12px;
+}
+h2.title-page + h3 {
+    font-size: 1rem;
+    color: var(--text-color-secundary);
+}
+  

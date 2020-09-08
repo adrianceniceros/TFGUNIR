@@ -1,0 +1,23 @@
+/* VARIABLES */
+:root {
+--primary: #3399FF;
+--black:  #353535;
+--grey:   #565656;
+
+--blue1: #4b98d6;
+--blue2: #3974a4;
+--blue3: #274f70;
+--blue4: #0F95FC;
+--blue5: #4b98d6;
+
+--danger:  #ea3c12;
+--success: #19924e;
+--danger-dark:  #bf2702;
+--success-light: #5cb85c;
+--warning: #f0ad4e;
+
+--text-color: #323232;
+--text-color-secundary: #676565;
+--border: #ccc;
+--border-tab: #888;
+}
